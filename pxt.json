@@ -1,5 +1,5 @@
 {
-    "name": "Demo",
+    "name": "first push",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,13 +8,15 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.56",
+        "target": "2.0.62",
         "targetId": "arcade"
     },
     "supportedTargets": [

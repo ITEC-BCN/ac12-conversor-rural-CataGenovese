@@ -4,6 +4,17 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "cabra"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "miImagen"
+    },
+    "song1": {
+        "data": "00be000408020106001c00010a006400f4016400000400000000000000000000000000000000023d0014001800011d18001c0001201c002000012a24002800012728002c0001272c00300002242530003400012534003800012238003c0001203c0040000122",
+        "mimeType": "application/mkcd-song",
+        "displayName": "miCancion",
+        "namespace": "mySongs."
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

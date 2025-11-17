@@ -499,7 +499,7 @@ function show_player () {
 }
 function pi_a_cavall () {
     result = Math.round(quantitat_obj * 12)
-    game.showLongText("Necessites " + result + " cavalls", DialogLayout.Full)
+    game.showLongText("Necessites " + result + " pins per comprar " + quantitat_obj + " cabres", DialogLayout.Full)
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -579,7 +579,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 function pi_a_gallina () {
     result = Math.round(quantitat_obj * 6)
-    game.showLongText("Necessites " + result + " gallines", DialogLayout.Full)
+    game.showLongText("Necessites " + result + " pins per comprar " + quantitat_obj + " gallines", DialogLayout.Full)
 }
 function show_options () {
     gallina = sprites.create(img`
@@ -815,15 +815,15 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 function pi_a_cabra () {
     result = Math.round(quantitat_obj * 5)
-    game.showLongText("Necessites " + result + " cabres", DialogLayout.Full)
+    game.showLongText("Necessites " + result + " pins per comprar " + quantitat_obj + " cabres", DialogLayout.Full)
 }
 function pi_a_ous () {
-    result = Math.round(quantitat_obj * 12 * 3)
-    game.showLongText("Necessites " + result + " ous", DialogLayout.Full)
+    result = Math.round(quantitat_obj * 3)
+    game.showLongText("Necessites " + result + " pins per comprar " + quantitat_obj + " dotzenes d'ous", DialogLayout.Full)
 }
 function pi_a_patata () {
     result = quantitat_obj * 2
-    game.showLongText("Necessites " + result + " patates", DialogLayout.Full)
+    game.showLongText("Necessites " + result + " pins per comprar " + quantitat_obj + " kg de patates", DialogLayout.Full)
 }
 let option5: Sprite = null
 let option4: Sprite = null

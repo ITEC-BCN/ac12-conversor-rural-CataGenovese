@@ -1,5 +1,5 @@
 {
-    "name": "first push - Copia",
+    "name": "first push ",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -10,7 +10,8 @@
         "README.md",
         "assets.json",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +23,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }

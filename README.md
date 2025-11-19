@@ -1,33 +1,15 @@
- 
+ # RA1-AC12-El conversor rural 🐓🌲
+
+## Objectiu: si un veí o veïna del poble necessita una gallina, pot intercanviar; 6 quilograms de llenya, que equivalen a una gallina; 2 kilogramos de llenya equivalen a 1 kilogram i mig de patata; 5 quilograms de llenya equivalen a una cabra; 3 kilograms de llenya equivalen a 12 ous frescos de gallina i 12 quilograms equivalen a un cavall
+
+## Explicació del codi
+
+1. Comencem amb la funció "iniciar" que es com la main que inicialitza el programa i crida a la funció show player
+<img width="472" height="236" alt="image" src="https://github.com/user-attachments/assets/ce1d0065-a434-4b5e-a867-06721a71c082" />
 
 
-> Open this page at [https://raimonizard.github.io/demo/](https://raimonizard.github.io/demo/)
+2. Funció show player: Funció que crida a show options i que ens deixa moure el sprite
+<img width="526" height="337" alt="image" src="https://github.com/user-attachments/assets/30d0da3b-6e17-4671-ab37-c3736b2c9928" />
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/raimonizard/demo** and import
-
-## Edit this project ![Build status badge](https://github.com/raimonizard/demo/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/raimonizard/demo** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/raimonizard/demo/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/arcade
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+3. Funció show options: 
+<img width="457" height="671" alt="image" src="https://github.com/user-attachments/assets/424a4f63-bf11-4911-a842-e2b85788c097" />

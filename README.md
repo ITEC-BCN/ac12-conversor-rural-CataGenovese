@@ -32,14 +32,17 @@ Aquesta funció és responsable de:
 * Crear l'Sprite del jugador.
 * Configurar el moviment del jugador mitjançant els controls del panell de direcció (el moviment del sprite és gestionat per la funció move mySprite with buttons).
 * Crida a la funció show options per carregar els animals intercanviables.
+  
 <img width="526" height="337" alt="image" src="https://github.com/user-attachments/assets/30d0da3b-6e17-4671-ab37-c3736b2c9928" />
 
 ## 3. Funció show options
 S'encarrega de generar els diferents sprites que representen els animals i productes que es poden intercanviar (gallina, cabra, patates, etc.) a la pantalla. Aquesta funció estableix les posicions dels elements per a la interacció del jugador.
+
 <img width="496" height="680" alt="image" src="https://github.com/user-attachments/assets/c91551d2-6225-41a3-8355-bcd4ce9107ed" />
 
 ## 4. Superposicions
 Mitjançant la detecció de superposició (event on overlap), el programa gestiona la lògica de l'intercanvi. Quan l'Sprite del jugador es superposa amb un Sprite d'animal/producte, es desencadena la conversió de valors segons les regles establertes.
+
 <img width="633" height="714" alt="image" src="https://github.com/user-attachments/assets/9fab73c5-72a9-4134-9387-62d3cb211680" />
 
 ## Inconvenients i solucions
@@ -52,6 +55,7 @@ Solució: He utilitzat la funció d'arrodoniment (rounding) per assegurar-nos qu
 ### 2. Valors negatius
 Problema: En certes operacions, podria passar que l'usuari introdueixi valors negatius i per tant els càlculs podrien donar quantitats negatives de productes.
 Solució: Vaig implementar el valor absolut en els càlculs
+
 <img width="1156" height="265" alt="image" src="https://github.com/user-attachments/assets/742c2ef6-8004-4e22-9a3e-4d5400dbf64f" />
 
 ## Funcionament pràctic
